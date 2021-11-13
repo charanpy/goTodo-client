@@ -1,0 +1,24 @@
+ul {
+  padding: 0;
+  width: 250px;
+}
+
+li {
+  list-style: none;
+  text-transform: capitalize;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  border:1px solid #c1d3e6;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+span {
+  color: red;
+}

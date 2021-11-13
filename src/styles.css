@@ -1,0 +1,40 @@
+/* You can add global styles to this file, and also import other style files */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* font-size: 62.5%; */
+  font-family: "Alegreya",sans-serif;
+}
+
+h1,h2,h3,h4,p{
+  margin: 0;
+  padding: 0;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.mv{
+  margin: 1rem 0;
+}
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.container {
+  min-height: 90vh;
+}
+
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+
+

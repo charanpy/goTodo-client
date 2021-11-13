@@ -1,0 +1,14 @@
+header {
+  height:10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:0 1.5rem;
+  color: white;
+  background: #212529;
+}
+
+
+.brand {
+  font-weight: 400;
+}

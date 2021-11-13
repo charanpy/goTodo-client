@@ -1,0 +1,6 @@
+<ul class="mv">
+  <li *ngFor="let todo of todos">
+    {{ todo?.todocontent || todo?.todo }}
+    <span (click)="deleteTodo(todo?._id || '')">&#10005;</span>
+  </li>
+</ul>
